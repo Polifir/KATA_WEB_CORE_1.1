@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KATA 1.1</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <main class="container">
+    <div class="grid">
+      <section class="logo">
+        <img src="img/logo.svg" alt="logo" class="logo__content">
+      </section>
+      <section class="main">
+        <div class="title">
+          <h1 class="title__main">Get iintoo if today</h1>
+          <p class="title__descr">There is not charge or obligation upon registration</p>
+        </div>
+        <div class="reg">
+          <div class="reg__social">
+            <button class="btn btn--facebook"><img class="btn__social-icon" src="img/facebook.svg" alt="facebook icon"> Register with FaceBook</button>
+            <button class="btn btn--linkedIn"><img class="btn__social-icon" src="img/linkedin.svg" alt="facebook icon"> Register with LinkedIn</button>
+          </div>
+          <div class="alt">or</div>
+          <form class="form" action="">
+           <div class="form__contact">
+            <div class="input-block">
+              <label class="input-block__label" for="email">Email</label>
+              <input class="input-block__text" name="email" type="email">
+            </div>
+            <div class="input-block">
+              <label class="input-block__label" for="phone">Phone</label>
+              <input class="input-block__text" name="phone" name type="tel">
+            </div>
+           </div>
+           <div class="form__radio">
+              <div class="subtitle">
+                <h2 class="subtitle__title">What type of investor are you?</h2>
+                <p class="subtitle__descr">Select the type investor you are below</p>
+              </div>
+              <div class="radio">
+                <label class="radio__elem">
+                  <input class="radio__elem__input" name="investory-type" value='Individual' type='radio'>
+                  <span class="radio__elem__fake-checkbox"></span>
+                  <span class="raduo__elem__text">Individual<span>
+                </label>
+                <label class="radio__elem">
+                  <input class="radio__elem__input" name="investory-type" value='Business' type='radio'>
+                  <span class="radio__elem__fake-checkbox"></span>
+                  <span class="raduo__elem__text">Business<span>
+                </label>
+                <label class="radio__elem">
+                  <input class="radio__elem__input" name="investory-type" value='IRA' type='radio'>
+                  <span class="radio__elem__fake-checkbox"></span>
+                  <span class="raduo__elem__text">IRA<span>
+                </label>
+                <label class="radio__elem">
+                  <input class="radio__elem__input" name="investory-type" value='Trust' type='radio'>
+                  <span class="radio__elem__fake-checkbox"></span>
+                  <span class="raduo__elem__text">Trust<span>
+                </label>
+              </div>
+              <p class="radio__descr">
+                i am a natural person investing on my own behalf as a sole owner, joint tenant, or tenant in common.
+              </p>    
+           </div>
+           <label class="license">
+            <input  class="license__input" type="checkbox" value="true">
+            <span class="license__text">I agree to the terms and receiving notifications from iinto <a rel="license" href="#">View full terms</a> </span>
+           </label>
+
+           <input class="btn btn--submit" type="submit" value="Create Account"/>
+          </form>
+        </div>
+
+      </section>
+    </div>
+  </main>
+  
+</body>
+</html>
